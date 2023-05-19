@@ -1,0 +1,9 @@
+def rec(arr,i,n):
+    if (i==n):
+        return
+    rec(arr,i+1,n)
+    print(arr[i],end=" ")
+
+arr=[1,2,3]
+n=len(arr)
+rec(arr,0,n)
